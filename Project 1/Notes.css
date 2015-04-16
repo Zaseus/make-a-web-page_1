@@ -1,0 +1,49 @@
+body{
+	font-family: Calibri;
+	max-width: 2000px;
+	margin: 8px;
+	background: rgb(169, 171, 179);
+}
+.Contents{
+	font-size: 1.1em;
+	background: white;
+	border-radius: 20px;
+	padding: 1%;
+	max-width: 40%;
+	margin: 0 auto;
+	padding-left: 18%;
+	
+}
+.Notes{
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.Notes-body{
+	max-width: 90%;
+	margin:0 auto;
+	font-size: 130%;
+}
+.Header{
+	text-align: center;
+	color: black;
+	font-size: 550%;
+	text-decoration: underline;
+	
+}
+.lesson-layout{
+	max-width: 90%;
+	background: rgb(231, 225, 225);
+	border-radius: 20px;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	margin:0 auto;
+
+}
+.topic-layout{
+	max-width: 90%;
+	background: white;
+	border-radius: 20px;
+	margin: 0 auto;
+	padding: .5%;
+}
