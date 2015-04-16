@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Notes</title>
+<link rel="stylesheet" type="text/css" href="Notes.css">
+</head>
+<body>
+  <div class="Contents">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lessons1">Lesson 1: The basics of HTML/Web</a>
+        <ul>
+          <li><a href="#topic1-1">What is the Web?</a>
+          </li>
+          <li><a href="#topic1-2">HTML?</a>
+          </li>
+          <li><a href="#topic1-3">Elements and Tags</a>
+          </li>
+          <li><a href="#topic1-4">Computers are Simple</a>
+          </li>
+        </ul>
+      <li><a href="#lessons2">Lesson 2:Creating Structure in HTML</a>
+        <ul>
+          <li><a href="#topic2-1">Structure</a>
+          </li>
+          <li><a href="#topic2-2">Developer Tools</a>
+          </li>
+          <li><a href="#topic2-3">The Tree</a>
+          </li>
+          <li><a href="#topic2-4">Text Editors</a>
+          </li>
+        </ul>
+      <li><a href="#lessons3">Lesson 3: CSS Style in HTML</a>
+        <ul>
+          <li><a href="#topic3-1">What CSS does for us</a>
+          </li>
+          <li><a href="#topic3-2">Inheritance</a>
+          </li>
+          <li><a href="#topic3-3">How to include CSS style into a Webpage</a>
+          </li>
+          <li><a href="#topoic3-4">Styling</a>
+          </li>
+        </ul>
+      </ol>
+  </div>
+  <br>
+  <h1 class="Header">Important Concepts</h1>
+  <div class="Notes">
+    <div class="Notes-body">
+      
+        <div id="lessons1" class="lesson-layout"><h2>Lesson 1: The Basics of HTML/Web</h2>
+          <div id="topic1-1" class="topic-layout"><b>What is the Web?</b><br>
+            <p>The web is comprised of three main things. The <em>Browser</em>, <em>Internet</em>, and <em>Servers</em>. In essence, the web is a lot of computers talking to one another. A person sends an <em>HTTP Request</em> to a <em>server</em> which then returns the requested information. <em>HTTP</em> (which stands for Hyper Text Transfer Protocol) is comparable to the highways that connect cities to one another. The <em>Broswer</em> is the individual machine that conects to the network or the <em>Internet</em> and sends requests to the <em>Server</em>
+            </p>
+          </div>
+          <br>
+          <div id="topic1-2" class="topic-layout"><b>HTML?</b><br>
+            <p>HTML stands for <em>Hypte Text Markup Language</em>. It is what gives form and function to web pages. It's made up of two things, <em>Text content</em> and <em>Markup</em>. <em>Text Content</em> makes up what you see in a webpage (content) while <em>Markup</em> decides how that content looks.
+            </p>
+          </div>
+          <br>
+          <div id="topic1-3" class="topic-layout"><b>Elements and Tags</b><br>
+            <p>
+              An <em>Element</em> refers to that which is everything between an opening and closing <em>Tag</em>. There are two types of Elements, <em>Inline</em> and <em>Block</em>. Inline is an Element that just makes a line. An example would be &lt;br&gt;, &lt;br&gt; is a void tag that moves to the next line, or sometimes referred to as a Break. A Block Element creates an invisible Box that has specific height and width restrictions. &lt;p&gt; is a block Element called paragraph. A <em>Tag</em> is always contained within angled brackets. Most tags have an opening tag (&lt;p&gt;) followed by a closing tag (&lt;/p&gt;). There are some called <em>Void Tags</em> that do not require closing tags.
+              <br>
+              <br>
+            </p>
+            <p>Some of the more commonly used tags are as follows:
+              <br>
+             <ol>
+              <li>&#60;b&#62; &#60;/b&#62; - The <b>Bold</b> tag.
+              </li>
+              <li>&#60;em&#62; &#60;/em&#62; - The <em>Italics</em> tag.
+              </li>
+              <li>&#60;a&#62; &#60;/a&#62; - This is the anchor tag.
+              </li>
+	     </ol>
+             
+              The anchor tag is used to place <em>Hyper Links</em> or <em>Links</em> in the content of a webpage. &#60;a href="www.reddit.com"&gt;derp&lt;/a&gt; is an example of what can be used to insert a link in a page. It shows up as <a href="www.reddit.com">derp</a>. (href) is the atrribute that is being assigned to the anchor.
+          </div>
+          <br>
+          <div id="topic1-4" class="topic-layout"><b>Computers are Simple</b><br>
+            <p>Computers follow directions that they are <em>given</em> and that is <u>all</u> that they can do.They cannot interpret what a person means, only what they explicitly and definitely tell it to do. When someone refers to a computer being simple  or stupid. They are referring to (usually) an error that has occurred. The <em>Syntax</em> or rules of the language (HTML in this case) have to be followed precisely if we want it to work as intended. <em>Syntax</em> is like Grammar.
+            </p>
+          </div>
+          <br>
+        </div>
+        <div id="lessons2" class="lesson-layout"><h2>Lesson 2: Creating Structure in HTML</h2>
+          <div id="topic2-1" class="topic-layout"><b>Structure</b>
+            <p>Structure, as it sounds, gives a webpage shape/form. Even when it isn't visible. Structure narrows down the spaces in a web page and help maintain order. In my opinion, creating sound structure or form makes it easier to read code and visualize what is happening. In the previous lesson we discussed <em>Block Elements</em> and it is from them that we create form. In lesson two, the Element used most to create form is the &#60;div&#62; tag.
+            </p>
+          </div>
+          <br>
+          <div id="topic2-2" class="topic-layout"><b>Developer Tools</b><br>
+            <p>In order to see structure easily we need devolper tools. In this lesson we've used the tools available to us in <em>Google Chrome</em>. In Chrome we can right click anywhere on a webpage and select <em>Inspect Element</em> and it will show us the elements of that page or the particular element selected.
+            </p>
+          </div>
+          <br>
+          <div id="topic2-3" class="topic-layout"><b>The Tree</b>
+            <p>While using the <em>Inspect Element</em> tool we can see all the elements that make up a page. Each of those elements have a dropdown toggle that reveal more elements that have there own toggles. This can continue until we arrive at the smallest of details. This nesting is sometimes referred to as <em>The Tree</em>.
+            </p>
+          </div>
+          <br>
+          <div id="topic2-4" class="topic-layout"><b>Text Editors</b>
+            <p>To write code we need an editor. A text editor of most any kind <u>can</u> do the job. Notepad from PC, one of the simplest editors out there, can do it. These are not the best ones to use though. They would require much more time to use and convert it to a useable HTML page. Some of the editors we've used so far have been <em>CodePen</em> and <em>Sublime Text</em>. These two editors give us more tools and show results faster.
+            </p>
+          </div>
+	<br>
+        </div>
+        <div id="lessons3" class="lesson-layout"><h2>Lesson 3: CSS Style in HTML</h2>
+          <div id="topic3-1" class="topic-layout"><b>What CSS does for us</b>
+            <p>The one resource that is always in short supply is <b>Time</b>. It takes a while to code a webpage, but without CSS it would take even longer. Repetition is the largest hurdle to tackle while coding a page. Repeating code over and over again to make a page look a certain way takes forever and gives more opportunities for mistakes to happen. With CSS though, we can assign styles to certain <em>Selectors</em> like the &lt;p&gt; element and more (class, id, body, etc) that will affect everything grouped into it.
+            </p>
+          </div>
+          <br>
+          <div id="topic3-2" class="topic-layout"><b>Inheritance</b>
+            <p><em>Inheritance</em> is that which is applied to an element and it's descendants.Descendants only inherit text related assignments, not box.Box meaning things like <em>Background</em>, <em>Border</em>, and <em>Display</em>.</p>
+            <p>Some Inheritable properties
+            </p>
+              <ol>
+                <li>Color</li>
+                <li>Line height</li>
+                <li>Font</li>
+              </ol>
+              <p> This is, essentially, what makes CSS such a valuable tool. It can also be a problem if it isnt done correctly. If the selector is not specific enough the styling will flood over into unwanted areas. To get around this we assign very specific class and id names. for example, if we used (&lt;div class="example"&gt;&lt;p&gt;Google is the best browser ever!&lt;p&gt;&lt;div&gt;) any change we make in CSS to the example class will apply to everything with that class name.</p>
+            </div>
+	    <br>
+            <div id="topic3-3" class="topic-layout"><b>How to include CSS style into a Webpage</b>
+              <ol>
+                <li>Write CSS in the &lt;head&gt; of your HTML by using &lt;style&gt;div{Code here}&lt;/style&gt;.</li>
+                <li>Write your style inline with your HTML. This is a bad idea because it leads to lots of repeated code and thus extra work. Avoid if possible</li>
+                <li>Link your HTML to a separate CSS file in the &lt;head&gt;. Link example: &lt;link rel="stylesheet" type="text/css"href="yourfile.css"&gt;. The "yourfile.css" must be in the same folder as the HTML document.</li>
+              </ol>
+              <p>While the other options are useful to know, we will mainly be using the third option. It cleans up our coding area by making everything easier to find and read.</p>
+            </div>
+	    <br>
+            <div id="topic3-4" class="topic-layout"><b>Styling</b>
+              <p>
+                After the CSS file has been linked to the HTML document we can add the style to whichever elements we specify via the element tag (to broad most times) or the class and id names(preferred).
+              </p>
+              <p>Using an example from earlier (&lt;div class="example"&gt;&lt;p&gt;Google is the best browser ever!&lt;p&gt;&lt;div&gt;). I want the text for everything with that class name to be blue. The line needed for that in CSS will look like .example{color: blue;}. From this line ".example" is called the <em>Selector</em> while everything between the"{}" is referred to as the <em>Declaration</em>.
+              </p>
+              <p><b>Remember</b> the selector refers to an element or an id/class name within an element in your HTML code. This leaves "color:",which is a property, and "blue;" which is a value. There can be multiple declarations inside a selector and there are many different properties and values.
+              </p>
+            </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
